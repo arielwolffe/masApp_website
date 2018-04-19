@@ -1,0 +1,57 @@
+@media (max-width: 992px) {
+    .navbar{
+        max-width: 100%;
+        padding: 0;
+    }
+    .navbar >img{
+        top:0;
+        bottom: 100%;
+        padding: 0;
+        margin:0;
+    }
+    .wellcome-heading > h3{
+        font-size: 222px;
+    }
+    .wellcome-heading > h2{
+        font-size: 32px;
+        margin-top:0;
+    }
+    .welcome-thumb {
+        width: 50%;
+        right: 0;
+    }
+
+    .app-download-btn:first-child {
+        margin-right: 0;
+    }
+    .app-download-area {
+        display: block;
+    }
+    .app-download-btn {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 760px) {
+
+    .navbar >img{
+       max-width: 50%;
+    }
+    .wellcome-heading {
+        display: none;
+    }
+    .welcome-thumb {
+        width: 60%;
+    }
+    .app-download-area {
+        margin-top:40% ;
+    }
+}
+
+@media (max-width: 415px) {
+
+    .welcome-thumb {
+        width: 100%;
+        right: 0;
+    }
+}
